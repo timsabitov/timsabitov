@@ -1,8 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-label="Temirlan — personal developer space">
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#081522"/><stop offset=".6" stop-color="#11152d"/><stop offset="1" stop-color="#21183e"/></linearGradient><linearGradient id="a"><stop stop-color="#5ff4d2"/><stop offset="1" stop-color="#ab8bff"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#6c8ca9" stroke-opacity=".1"/></pattern></defs>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#081522"/><stop offset=".6" stop-color="#11152d"/><stop offset="1" stop-color="#21183e"/></linearGradient><linearGradient id="a"><stop stop-color="#5ff4d2"/><stop offset="1" stop-color="#ab8bff"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#6c8ca9" stroke-opacity=".1"/></pattern><radialGradient id="halo"><stop stop-color="#69f5da" stop-opacity=".22"/><stop offset="1" stop-color="#69f5da" stop-opacity="0"/></radialGradient>
+<style>
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes breathe{0%,100%{opacity:.35}50%{opacity:.9}}
+@keyframes drift{0%,100%{transform:translateY(0);opacity:.2}50%{transform:translateY(-14px);opacity:.8}}
+@keyframes sweep{0%,15%{transform:translateX(-300px);opacity:0}30%{opacity:.65}70%{opacity:.65}85%,100%{transform:translateX(1200px);opacity:0}}
+.orbit{transform-origin:984px 192px;animation:spin 24s linear infinite}
+.orbit-reverse{transform-origin:984px 192px;animation:spin 36s linear infinite reverse}
+.glow{animation:breathe 5s ease-in-out infinite}
+.particle{animation:drift 7s ease-in-out infinite}
+.sweep{animation:sweep 12s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.orbit,.orbit-reverse,.glow,.particle,.sweep{animation:none}.sweep{display:none}}
+</style></defs>
 <rect width="1200" height="390" rx="22" fill="url(#bg)"/><rect width="1200" height="390" rx="22" fill="url(#grid)"/>
 <path d="M0 389H1200" stroke="url(#a)" stroke-width="4"/>
 <g fill="none" stroke="#a58bfa"><circle cx="984" cy="192" r="137" opacity=".15"/><circle cx="984" cy="192" r="112" opacity=".25"/><path d="M833 192h302M984 41v302" opacity=".14"/><path d="M883 107l44-37M1083 274l-42 37" stroke-width="3"/></g>
+<circle class="glow" cx="984" cy="192" r="170" fill="url(#halo)"/>
+<g class="orbit" fill="none" stroke="#65f1d3" stroke-width="2">
+<circle cx="984" cy="192" r="137" stroke-dasharray="85 776" opacity=".8"/>
+<circle cx="1121" cy="192" r="4" fill="#69f5d8" stroke="none"/>
+</g>
+<g class="orbit-reverse" fill="none" stroke="#b496ff">
+<circle cx="984" cy="192" r="112" stroke-dasharray="45 659" stroke-width="3" opacity=".75"/>
+<circle cx="872" cy="192" r="3" fill="#bd9eff" stroke="none"/>
+</g>
+<g fill="#9cb7df"><circle class="particle" cx="747" cy="98" r="2"/><circle class="particle" style="animation-delay:-2s" cx="799" cy="293" r="2"/><circle class="particle" style="animation-delay:-4s" cx="1148" cy="312" r="2"/><circle class="particle" style="animation-delay:-3s" cx="713" cy="193" r="1.5"/></g>
 <path d="M984 85l93 53v108l-93 54-93-54V138z" fill="#111d30" stroke="url(#a)" stroke-width="2"/>
 <path d="M932 159h104v20h-40v59h-24v-59h-40z" fill="#62ecd5"/>
 <path d="M1013 205h23v33h-23z" fill="#a68aff"/>
@@ -12,6 +34,6 @@
 <text x="61" y="204" fill="#a6b7ce" font-family="monospace" font-size="22">@timsabitov</text>
 <path d="M61 235h610" stroke="#334259"/>
 <text x="61" y="274" fill="#e1e9fa" font-family="Arial,sans-serif" font-size="24">Любопытство. Код. Следующий уровень.</text>
-<rect x="61" y="308" width="157" height="31" rx="15" fill="#142e33" stroke="#2d655e"/><circle cx="78" cy="324" r="4" fill="#62f1cc"/><text x="92" y="329" fill="#8cf6da" font-family="monospace" font-size="12" letter-spacing="1">KEEP BUILDING</text>
+<rect x="61" y="308" width="157" height="31" rx="15" fill="#142e33" stroke="#2d655e"/><circle class="glow" cx="78" cy="324" r="4" fill="#62f1cc"/><text x="92" y="329" fill="#8cf6da" font-family="monospace" font-size="12" letter-spacing="1">KEEP BUILDING</text>
 <text x="240" y="329" fill="#8193b0" font-family="monospace" font-size="12" letter-spacing="2">IDEA → CODE → EXPERIENCE</text>
-</svg>
+<rect class="sweep" x="0" y="386" width="230" height="3" rx="1.5" fill="#b0fff0"/></svg>
