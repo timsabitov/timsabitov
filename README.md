@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-header.svg?v=animated-1" width="100%" alt="Temirlan · @timsabitov — Любопытство. Код. Следующий уровень." />
+  <img src="./assets/profile-header-animated.svg" width="100%" alt="Temirlan · @timsabitov — Любопытство. Код. Следующий уровень." />
 </p>
 
 <p align="center">
