@@ -1,10 +1,71 @@
-- 👋 Hi, I’m @timsabitov
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+<p align="center">
+  <img src="./assets/profile-header.svg" width="100%" alt="Temirlan · @timsabitov — Любопытство. Код. Следующий уровень." />
+</p>
 
-<!---
-timsabitov/timsabitov is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<p align="center">
+  <a href="#-обо-мне">Обо мне</a> &nbsp; / &nbsp;
+  <a href="#-арсенал">Арсенал</a> &nbsp; / &nbsp;
+  <a href="#-витрина-проектов">Проекты</a> &nbsp; / &nbsp;
+  <a href="https://github.com/timsabitov?tab=repositories">Все репозитории ↗</a>
+</p>
+
+## ⚡ Обо мне
+
+Привет, я **Темирлан** — `@timsabitov`.
+
+Здесь мой уголок для кода, экспериментов и идей, которые хочется превратить во что-то работающее. От Telegram-ботов с характером до небольших инструментов и учебных задач.
+
+Мне нравится разбираться, как всё устроено, пробовать новое и находить простые решения. В коде, как и в игре: интереснее всего исследовать, улучшать и открывать следующий уровень.
+
+> **Мой подход:** придумать → собрать → проверить → сделать лучше.
+
+## 🧰 Арсенал
+
+<img src="./assets/tech-loadout.svg" width="100%" alt="Python — боты и инструменты; Java — практика и задачи; HTML — веб-эксперименты" />
+
+## 🎮 Витрина проектов
+
+<table>
+<tr>
+<td width="60%" valign="top">
+
+### 📖 Книга Братана
+**Telegram-бот с местным колоритом**
+
+Цитаты и шутки, настраиваемые триггеры, поздравления с днём рождения и статистика активности чата. Немного кода — и у беседы появляется свой характер.
+
+`Python` · `Telegram` · `Community`
+
+[Посмотреть проект →](https://github.com/timsabitov/kniga_bratan_bot)
+
+</td>
+<td width="40%" valign="top">
+
+### ☕ Java: точка старта
+**Учебная площадка**
+
+Репозиторий для знакомства с Java и практики. Сохранённый форк исходного учебного проекта.
+
+`Java` · `Learning` · `Fork`
+
+[Открыть gitStart →](https://github.com/timsabitov/gitStart)
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>🗃️ Ещё немного из мастерской</b></summary>
+<br />
+
+- [HTML-эксперименты](https://github.com/timsabitov/test123456) — небольшая площадка для веб-разметки.
+- [Этот профиль](https://github.com/timsabitov/timsabitov) — README и собственная графика оформления.
+
+</details>
+
+---
+
+<p align="center">
+  <b>Маленькие шаги. Рабочий код. Новые уровни.</b><br />
+  <sub>Спасибо, что заглянул в мою мастерскую ✦</sub>
+</p>
